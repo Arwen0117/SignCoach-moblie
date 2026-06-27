@@ -1,0 +1,15 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="44" fill="#F0FDFA"/>
+  <rect x="58" y="54" width="784" height="512" rx="36" fill="white" stroke="#99F6E4" stroke-width="4"/>
+  <circle cx="434" cy="194" r="66" fill="#CCFBF1" stroke="#0D9488" stroke-width="10"/>
+  <path d="M318 434C328 340 364 282 434 282C504 282 542 340 552 434" fill="#CCFBF1"/>
+  <path d="M318 434C328 340 364 282 434 282C504 282 542 340 552 434" stroke="#0D9488" stroke-width="10" stroke-linecap="round"/>
+  <path d="M550 334C609 296 636 247 632 188" stroke="#2563EB" stroke-width="22" stroke-linecap="round"/>
+  <path d="M632 188C643 149 695 145 711 181C718 197 714 213 701 228L658 277" fill="#EFF6FF"/>
+  <path d="M632 188C643 149 695 145 711 181C718 197 714 213 701 228L658 277" stroke="#2563EB" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M663 161L660 91M684 167L705 103M702 184L747 137" stroke="#2563EB" stroke-width="11" stroke-linecap="round"/>
+  <path d="M637 252C612 245 596 231 590 210" stroke="#0D9488" stroke-width="8" stroke-linecap="round" stroke-dasharray="12 16"/>
+  <path d="M595 232L588 199L616 217" stroke="#0D9488" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="90" y="112" fill="#0F766E" font-family="Arial, sans-serif" font-size="34" font-weight="700">WATER</text>
+  <text x="90" y="160" fill="#475569" font-family="Arial, sans-serif" font-size="24">Use a W hand shape near the mouth.</text>
+</svg>

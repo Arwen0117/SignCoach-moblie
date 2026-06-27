@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #0f172a;
+  background: #f8fbff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.camera-grid {
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.09) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.video-noise {
+  background:
+    radial-gradient(circle at 24% 18%, rgba(14, 165, 233, 0.24), transparent 30%),
+    radial-gradient(circle at 80% 22%, rgba(16, 185, 129, 0.18), transparent 28%),
+    linear-gradient(135deg, #eff6ff 0%, #f8fafc 46%, #ecfeff 100%);
+}

@@ -1,0 +1,19 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="44" fill="#EFF6FF"/>
+  <rect x="58" y="54" width="784" height="512" rx="36" fill="white" stroke="#BFDBFE" stroke-width="4"/>
+  <circle cx="438" cy="190" r="66" fill="#DBEAFE" stroke="#2563EB" stroke-width="10"/>
+  <path d="M322 428C332 334 368 278 438 278C508 278 545 334 555 428" fill="#DBEAFE"/>
+  <path d="M322 428C332 334 368 278 438 278C508 278 545 334 555 428" stroke="#2563EB" stroke-width="10" stroke-linecap="round"/>
+  <path d="M358 338C304 314 266 278 246 230" stroke="#10B981" stroke-width="22" stroke-linecap="round"/>
+  <path d="M246 230C233 201 252 172 283 179C302 184 312 202 318 222L335 280" fill="#ECFDF5"/>
+  <path d="M246 230C233 201 252 172 283 179C302 184 312 202 318 222L335 280" stroke="#10B981" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M300 174L289 113M322 180L330 118M345 194L373 142M361 218L413 186" stroke="#10B981" stroke-width="10" stroke-linecap="round"/>
+  <path d="M538 333C613 286 644 227 629 157" stroke="#F59E0B" stroke-width="22" stroke-linecap="round"/>
+  <path d="M629 157C651 124 702 135 704 174C705 193 696 206 681 218L637 253" fill="#FFFBEB"/>
+  <path d="M629 157C651 124 702 135 704 174C705 193 696 206 681 218L637 253" stroke="#F59E0B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M669 130L688 78M688 147L734 109M695 174L757 162M681 202L731 234" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M600 106C628 76 679 62 724 80" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-dasharray="14 18"/>
+  <path d="M714 70L742 90L708 101" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="90" y="112" fill="#1D4ED8" font-family="Arial, sans-serif" font-size="34" font-weight="700">HELLO</text>
+  <text x="90" y="160" fill="#475569" font-family="Arial, sans-serif" font-size="24">Open palm near forehead, move outward.</text>
+</svg>
