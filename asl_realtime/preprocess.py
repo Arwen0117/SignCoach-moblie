@@ -25,8 +25,14 @@ def normalize_sequence(sequence: np.ndarray) -> np.ndarray:
     normalization keeps the first version simple and robust enough for an MVP.
     """
 
+    if sequence.ndim != 3 or sequence.shape[1:] != (FEATURE_LANDMARK_COUNT, 3):
+        raise ValueError(
+            f"Expected sequence shape (T, {FEATURE_LANDMARK_COUNT}, 3), got {sequence.shape}"
+        )
+    if not np.all(np.isfinite(sequence)):
+        raise ValueError("Landmark sequence contains NaN or infinity")
+
     seq = sequence.astype(np.float32, copy=True)
-    seq = np.nan_to_num(seq, nan=0.0, posinf=0.0, neginf=0.0)
     points = seq.reshape(-1, 3)
     visible = np.any(np.abs(points[:, :2]) > 1e-6, axis=1)
     if not np.any(visible):
@@ -54,6 +60,10 @@ def resize_sequence(sequence: np.ndarray, target_frames: int) -> np.ndarray:
         raise ValueError(f"Expected 2D sequence, got {sequence.shape}")
     if sequence.shape[1] != FEATURE_DIM:
         raise ValueError(f"Expected feature dim {FEATURE_DIM}, got {sequence.shape[1]}")
+    if target_frames <= 0:
+        raise ValueError("target_frames must be positive")
+    if not np.all(np.isfinite(sequence)):
+        raise ValueError("Landmark sequence contains NaN or infinity")
     if len(sequence) == 0:
         return np.zeros((target_frames, FEATURE_DIM), dtype=np.float32)
     if len(sequence) == target_frames:
@@ -70,10 +80,28 @@ def resize_sequence(sequence: np.ndarray, target_frames: int) -> np.ndarray:
 
 
 def prepare_sequence(sequence: np.ndarray, target_frames: int) -> np.ndarray:
+    """Normalize and resize one attempt exactly once for downstream consumers."""
+
+    sequence = np.asarray(sequence)
     if sequence.ndim == 3:
-        sequence = sequence.reshape(sequence.shape[0], FEATURE_DIM)
-    normalized = normalize_sequence(sequence.reshape(-1, FEATURE_LANDMARK_COUNT, 3))
-    return resize_sequence(normalized.reshape(-1, FEATURE_DIM), target_frames)
+        if sequence.shape[1:] != (FEATURE_LANDMARK_COUNT, 3):
+            raise ValueError(
+                f"Expected sequence shape (T, {FEATURE_LANDMARK_COUNT}, 3), got {sequence.shape}"
+            )
+        dense = sequence.reshape(sequence.shape[0], FEATURE_DIM)
+    elif sequence.ndim == 2 and sequence.shape[1] == FEATURE_DIM:
+        dense = sequence
+    else:
+        raise ValueError(
+            f"Expected sequence shape (T, {FEATURE_DIM}) or "
+            f"(T, {FEATURE_LANDMARK_COUNT}, 3), got {sequence.shape}"
+        )
+    if not np.all(np.isfinite(dense)):
+        raise ValueError("Landmark sequence contains NaN or infinity")
+
+    normalized = normalize_sequence(dense.reshape(-1, FEATURE_LANDMARK_COUNT, 3))
+    prepared = resize_sequence(normalized.reshape(-1, FEATURE_DIM), target_frames)
+    return np.ascontiguousarray(prepared, dtype=np.float32)
 
 
 def frame_from_mediapipe_results(results) -> np.ndarray:

@@ -1,0 +1,3 @@
+# Keep reference checksums reproducible across Windows and Linux checkouts.
+deploy/reference/*.json text eol=lf
+deploy/reference/*.npz -text

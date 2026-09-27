@@ -1,141 +1,132 @@
-# Realtime ASL Translator MVP
+# SignCoach — code-only release
 
-This is a first-version realtime English ASL recognition pipeline:
+**This is publishable application code, not a data-ready website that can be deployed
+and used immediately.** No reference index or dataset is included. Startup fails
+until separately authorized reference files are supplied. A GitHub/Render connection
+alone does not make scoring available. Docker build/run has not been verified.
 
-1. Train an isolated-sign classifier on free landmark data.
-2. Read webcam frames in realtime.
-3. Extract MediaPipe landmarks.
-4. Run a sliding-window model.
-5. Smooth repeated window predictions into an English subtitle stream.
+The current application is a single-user, unauthenticated Demo. Anyone able to access
+the service can access its practice history and update feedback. Public deployment
+requires an access-control decision before use; the current code does not isolate users.
+SQLite requires persistent writable storage to survive container replacement.
 
-## Dataset
+## Scope and data permission
 
-Recommended free dataset: **Google - Isolated Sign Language Recognition** on Kaggle.
+The Demo supports 30 ASL product words, four-second recordings, manual-baseline-v1
+action similarity, pass/retry/rerecord, up to two diagnostic messages and SQLite feedback.
+It does not output calibrated correctness probability. Logistic Regression and PopSign
+utilities are offline experiments, never runtime fallback models.
 
-Why this one:
+[ASL Citizen's license](https://www.microsoft.com/en-us/research/project/asl-citizen/dataset-license/)
+restricts non-commercial research use and prohibits distributing data or modifications.
+This snapshot does not establish permission to redistribute references, publish an image
+containing them or offer public scoring. Obtain appropriate authorization separately.
+No new open-source license is granted for this project by this preparation step.
 
-- It is ASL / English-word oriented.
-- It has about 100k isolated sign examples from a 250-sign vocabulary.
-- It already provides MediaPipe landmarks, so the MVP can train without downloading raw videos.
+Before runtime, provide authorized `index.npz` and `manifest.json` independently at
+`deploy/reference` locally or `/app/deploy/reference` in the container. Keep these files
+out of Git and out of the Docker image. No downloader, secret-transfer mechanism or
+synthetic fallback is supplied. See [the reference contract](deploy/reference/README.md).
 
-Dataset page:
+## Local build and startup
 
-https://www.kaggle.com/competitions/asl-signs/data
-
-The expected local structure after download/unzip is:
-
-```text
-data/asl-signs/
-  train.csv
-  sign_to_prediction_index_map.json
-  train_landmark_files/
-    ...
-```
-
-## Setup
+Requirements: Python 3.11 and Node 24. Run from this snapshot root:
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+py -3.11 -m venv .venv
+.venv/Scripts/python.exe -m pip install -r requirements-demo.txt
+Set-Location web-app
+npm ci
+npm run build
+Set-Location ..
 ```
 
-Download the dataset with Kaggle CLI:
+The build does not require reference data. Before starting the server, supply the
+authorized assets and run this explicit check, using trusted SHA256 values supplied
+separately with the assets (replace the placeholders):
 
 ```powershell
-kaggle competitions download -c asl-signs -p data/asl-signs
-Expand-Archive data/asl-signs/asl-signs.zip -DestinationPath data/asl-signs
+.venv/Scripts/python.exe -m scripts.verify_authorized_reference --reference-dir deploy/reference --expected-index-sha256 <trusted-index-sha256> --expected-manifest-sha256 <trusted-manifest-sha256>
 ```
 
-You need a Kaggle account and `kaggle.json` API token for the download command.
-
-## Colab Disk-Saving Subset Extraction
-
-The full Kaggle zip is large. For an MVP, do not unzip the whole archive. Download the zip, then extract only the selected parquet files:
-
-```python
-!mkdir -p data/asl-signs-zip data/asl-signs-mvp
-!kaggle competitions download -c asl-signs -p data/asl-signs-zip
-!python -m asl_realtime.prepare_subset \
-  --zip data/asl-signs-zip/asl-signs.zip \
-  --output-dir data/asl-signs-mvp \
-  --max-classes 40 \
-  --max-samples-per-class 120
-```
-
-Then train against the small extracted directory:
-
-```python
-!python -m asl_realtime.train \
-  --data-dir data/asl-signs-mvp \
-  --output-dir runs/asl_mvp \
-  --epochs 10
-```
-
-After subset extraction succeeds, you may remove the large zip to free disk:
-
-```python
-!rm data/asl-signs-zip/asl-signs.zip
-```
-
-## Train A Small MVP Model
-
-Start with a subset so you can verify the whole system quickly:
+It verifies hashes, 187 finite/nonzero vectors of dimension 22080, the exact configured
+30-word coverage and portable source identifiers. Missing data or mismatch fails;
+it never silently skips validation. The checker was separately tested against private
+read-only assets, but none were copied into this snapshot. Unit tests below are synthetic
+and cannot establish recognition accuracy.
 
 ```powershell
-python -m asl_realtime.train `
-  --data-dir data/asl-signs `
-  --output-dir runs/asl_mvp `
-  --max-classes 40 `
-  --max-samples-per-class 120 `
-  --epochs 10
+$env:PORT='8000'
+$env:SIGNCOACH_DB_PATH="$PWD/data/signcoach-demo.sqlite3"
+$env:MPLCONFIGDIR="$PWD/.venv/matplotlib"
+.venv/Scripts/python.exe -m asl_realtime.api_server
 ```
 
-For a fuller run, remove `--max-classes` and increase samples/epochs.
+Visit `http://127.0.0.1:8000/`; stop with Ctrl+C. One Python process serves `web-app/build`
+and `/api/...`. Default PORT is 8000; default local host is 127.0.0.1. There is no separate
+frontend server or API-base configuration. Unknown APIs/assets remain 404. Missing
+reference files or frontend build produces a startup error rather than partial service.
+Camera frames are handled in memory. Reference video/media links require network access.
 
-## Realtime Webcam Demo
+## Docker recipe — pending validation
+
+The Dockerfile builds frontend assets with Node 24 and runs Python 3.11 Debian slim.
+It intentionally copies only the reference README, never reference data. Building is
+independent of reference assets; running still requires them. Neither the Linux dependency
+installation nor image/volume behavior has been tested with Docker on this machine.
+
+For an environment with Docker and separately authorized assets, the intended local
+verification sequence is:
 
 ```powershell
-python -m asl_realtime.realtime `
-  --checkpoint runs/asl_mvp/best.pt `
-  --labels runs/asl_mvp/labels.json
+docker build -t signcoach-code:local .
+docker volume create signcoach-data
+$referenceDir=(Resolve-Path <authorized-reference-directory>).Path
+docker run --name signcoach-demo -p 127.0.0.1:8000:8000 -e PORT=8000 --mount "type=bind,source=$referenceDir,target=/app/deploy/reference,readonly" --mount source=signcoach-data,target=/data signcoach-code:local
+# In another terminal when finished:
+docker stop signcoach-demo
+docker rm signcoach-demo
 ```
 
-Controls:
+The reference mount is read-only; the separate data volume holds SQLite. Retain the volume
+to keep practice history. Do not add the references to the image to avoid provisioning
+them separately. Use one worker because current attempt sessions are in process memory.
 
-- `q`: quit
-- `c`: clear subtitle history
-
-## Connect The Model To The Web App
-
-The React AI Practice page calls a local Python API at `http://127.0.0.1:8000`.
-
-Install backend dependencies:
+## Tests without restricted assets
 
 ```powershell
-pip install -r requirements.txt
+.venv/Scripts/python.exe -m unittest discover -s tests -q
+Set-Location web-app
+npm ci
+npm test
+npm run build
+npm run test:browser
 ```
 
-Start the model API. This path matches the trained checkpoint currently copied into this workspace:
+The browser test needs installed Chrome (or `BROWSER_CHANNEL=msedge`). It uses a fake
+camera and intercepted API responses solely to verify UI behavior. No real data is needed.
+`tests/practice.live.browser.mjs` is a separate, explicit real-backend test, run only after
+authorized data and the service are available; set DEMO_URL to that local origin.
+It uses a fake camera without business-response interception. No such real-data test was
+run against this data-free release. See [fixture provenance](tests/fixtures/README.md)
+and [release verification](RELEASE-CHECKLIST.md).
 
-```powershell
-python -m asl_realtime.api_server `
-  --checkpoint asl_realtime_mvp_colab_subset/runs/runs/asl_mvp/best.pt `
-  --labels asl_realtime_mvp_colab_subset/runs/runs/asl_mvp/labels.json
-```
+## Before GitHub / Render
 
-In another terminal, start the frontend:
+- Upload only this code snapshot. It contains no `.git` and no old history. Initialize
+  a new repository in this directory; do not commit or force-push the parent repository.
+  A plain Git command before initialization may discover the parent's old repository.
+- Confirm rights to publish the project code and third-party teaching assets/links.
+  This snapshot does not add a LICENSE or resolve those rights.
+- Resolve reference-data permission and a private runtime provisioning method. Connecting
+  Render to GitHub does not supply these excluded files; missing data prevents startup.
+- Validate Docker build/run on a Docker-capable machine. No claim of container readiness
+  or verified Render deployment is made here.
+- Check that the chosen service can supply `/app/deploy/reference` independently, bind
+  `0.0.0.0` using PORT, and provide persistent writable storage for SIGNCOACH_DB_PATH.
+- Address unauthenticated shared history before exposing the service publicly; retain
+  one process/worker until session/storage architecture is deliberately changed.
+- Manually verify real camera permission, signing behavior and required reference videos.
 
-```powershell
-cd web-app
-npm install
-npm run dev
-```
-
-Open the Vite URL, go to **AI Practice**, start the camera, and copy the SignASL reference video. The browser sends frames to the backend, the backend extracts MediaPipe landmarks, runs the trained model on a sliding window, and returns a practice score.
-
-Important: the current checkpoint label set contains words such as `apple`, `book`, `cat`, `blue`, `bird`, and `car`. The web app practice list is aligned to those labels. To practice `hello` or `thank you`, train a checkpoint that includes those labels.
-
-## What This MVP Does And Does Not Do
-
-This version recognizes isolated ASL signs and stitches stable predictions into a simple English subtitle stream. It is not yet sentence-level ASL translation. The next upgrade is to train a continuous recognition model, usually gloss sequence first, then English sentence generation.
+No GitHub/Render account or repository was accessed or changed, and no push/deployment
+is performed by these instructions.

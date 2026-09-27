@@ -1,0 +1,7 @@
+sample_id,target_word,performed_word,signer_id,source,split,sample_type,expected_pass,variant_status,video_path,keypoints_path,anomaly_type,source_sample_id
+synthetic:positive:hello,HELLO,HELLO,signer-synth-001,popsign_v1_0,test,positive,true,target_variant,keypoints/hello.csv,keypoints/hello.csv,,hello-positive
+synthetic:positive:please,PLEASE,PLEASE,signer-synth-002,popsign_v1_0,test,positive,true,target_variant,keypoints/please.csv,keypoints/please.csv,,please-positive
+synthetic:hard-negative:hello,HELLO,PLEASE,signer-synth-003,popsign_v1_0,test,hard_negative,false,different_sign,keypoints/please.csv,keypoints/please.csv,,hello-hard-negative
+synthetic:random-negative:please,PLEASE,HELLO,signer-synth-004,popsign_v1_0,test,random_negative,false,different_sign,keypoints/hello.csv,keypoints/hello.csv,,please-random-negative
+synthetic:invalid:thankyou,THANKYOU,,signer-synth-005,popsign_v1_0,test,invalid,false,different_sign,keypoints/no-hands.csv,keypoints/no-hands.csv,hands_not_visible,thankyou-invalid
+synthetic:unreviewed:thankyou,THANKYOU,,signer-synth-006,popsign_v1_0,test,hard_negative,,unreviewed,keypoints/hello.csv,,,thankyou-unreviewed
