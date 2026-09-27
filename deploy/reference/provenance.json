@@ -1,0 +1,173 @@
+{
+  "version": "aslcitizen-demo30-v1",
+  "source": "ASL Citizen local pose reference index",
+  "source_index_sha256": "3dce3edd84068f90107dff37dd0d72ce218df883fccf9b131d03dca60d23a107",
+  "source_manifest_sha256": "ed6b78cedea57c8340d150ee5fcbf734fbcbc37e3a31a80565e1c30340a19039",
+  "source_shape": [
+    1683,
+    22080
+  ],
+  "shape": [
+    187,
+    22080
+  ],
+  "dtype": "float32",
+  "index_sha256": "88f04d81c3f52ae06462c27fd29fa99c0be63b2574364549839f7dfbb6b3a37f",
+  "manifest_sha256": "a3acd27332c5ff0992f606d77db4f2ae3bab0e8fea2613d72b1f74a42a793eaa",
+  "index_bytes": 11599621,
+  "manifest_bytes": 46524,
+  "words": [
+    {
+      "target_word": "HELLO",
+      "reference_word": "HELLO",
+      "entries": 4
+    },
+    {
+      "target_word": "PLEASE",
+      "reference_word": "PLEASE",
+      "entries": 6
+    },
+    {
+      "target_word": "THANKYOU",
+      "reference_word": "THANK YOU",
+      "entries": 3
+    },
+    {
+      "target_word": "YES",
+      "reference_word": "YES",
+      "entries": 4
+    },
+    {
+      "target_word": "NO",
+      "reference_word": "NO",
+      "entries": 4
+    },
+    {
+      "target_word": "APPLE",
+      "reference_word": "APPLE",
+      "entries": 6
+    },
+    {
+      "target_word": "BOOK",
+      "reference_word": "BOOK",
+      "entries": 7
+    },
+    {
+      "target_word": "CAR",
+      "reference_word": "CAR",
+      "entries": 8
+    },
+    {
+      "target_word": "CAT",
+      "reference_word": "CAT",
+      "entries": 4
+    },
+    {
+      "target_word": "BIRD",
+      "reference_word": "BIRD",
+      "entries": 9
+    },
+    {
+      "target_word": "BLUE",
+      "reference_word": "BLUE",
+      "entries": 9
+    },
+    {
+      "target_word": "BLACK",
+      "reference_word": "BLACK",
+      "entries": 8
+    },
+    {
+      "target_word": "WHITE",
+      "reference_word": "WHITE",
+      "entries": 8
+    },
+    {
+      "target_word": "RED",
+      "reference_word": "RED",
+      "entries": 5
+    },
+    {
+      "target_word": "WATER",
+      "reference_word": "WATER",
+      "entries": 9
+    },
+    {
+      "target_word": "MILK",
+      "reference_word": "MILK",
+      "entries": 4
+    },
+    {
+      "target_word": "MOM",
+      "reference_word": "MOTHER",
+      "entries": 10
+    },
+    {
+      "target_word": "DAD",
+      "reference_word": "FATHER",
+      "entries": 6
+    },
+    {
+      "target_word": "BROTHER",
+      "reference_word": "BROTHER",
+      "entries": 8
+    },
+    {
+      "target_word": "CHILD",
+      "reference_word": "CHILD",
+      "entries": 7
+    },
+    {
+      "target_word": "HOME",
+      "reference_word": "HOME",
+      "entries": 6
+    },
+    {
+      "target_word": "MORNING",
+      "reference_word": "MORNING",
+      "entries": 9
+    },
+    {
+      "target_word": "NIGHT",
+      "reference_word": "NIGHT",
+      "entries": 3
+    },
+    {
+      "target_word": "RAIN",
+      "reference_word": "RAIN",
+      "entries": 9
+    },
+    {
+      "target_word": "SNOW",
+      "reference_word": "SNOW",
+      "entries": 3
+    },
+    {
+      "target_word": "HAPPY",
+      "reference_word": "HAPPY",
+      "entries": 6
+    },
+    {
+      "target_word": "SAD",
+      "reference_word": "SAD",
+      "entries": 7
+    },
+    {
+      "target_word": "SICK",
+      "reference_word": "SICK",
+      "entries": 5
+    },
+    {
+      "target_word": "SHIRT",
+      "reference_word": "SHIRT",
+      "entries": 5
+    },
+    {
+      "target_word": "WAIT",
+      "reference_word": "WAIT",
+      "entries": 5
+    }
+  ],
+  "equivalence_checks": 5610,
+  "distribution": "Local packaging only; public redistribution and commercial permissions require confirmation."
+}

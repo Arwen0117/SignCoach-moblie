@@ -1,0 +1,1690 @@
+{
+  "encoder": "pose",
+  "target_frames": 32,
+  "version": "aslcitizen-demo30-v1",
+  "entries": [
+    {
+      "word": "APPLE",
+      "slug": "apple",
+      "video_path": "asl-citizen/APPLE/01__8893172628755586-APPLE.mp4",
+      "embedding_index": 0,
+      "lecture": "12",
+      "topic": "Food 2",
+      "sentence": "I WANT EAT FISH."
+    },
+    {
+      "word": "APPLE",
+      "slug": "apple",
+      "video_path": "asl-citizen/APPLE/02__6028092526149813-APPLE.mp4",
+      "embedding_index": 1,
+      "lecture": "12",
+      "topic": "Food 2",
+      "sentence": "I WANT EAT FISH."
+    },
+    {
+      "word": "APPLE",
+      "slug": "apple",
+      "video_path": "asl-citizen/APPLE/03__050694111976633094-APPLE.mp4",
+      "embedding_index": 2,
+      "lecture": "12",
+      "topic": "Food 2",
+      "sentence": "I WANT EAT FISH."
+    },
+    {
+      "word": "APPLE",
+      "slug": "apple",
+      "video_path": "asl-citizen/APPLE/03__6162988797399023-APPLE.mp4",
+      "embedding_index": 3,
+      "lecture": "12",
+      "topic": "Food 2",
+      "sentence": "I WANT EAT FISH."
+    },
+    {
+      "word": "APPLE",
+      "slug": "apple",
+      "video_path": "asl-citizen/APPLE/04__3876948819633417-APPLE.mp4",
+      "embedding_index": 4,
+      "lecture": "12",
+      "topic": "Food 2",
+      "sentence": "I WANT EAT FISH."
+    },
+    {
+      "word": "APPLE",
+      "slug": "apple",
+      "video_path": "asl-citizen/APPLE/04__6028092526149813-APPLE.mp4",
+      "embedding_index": 5,
+      "lecture": "12",
+      "topic": "Food 2",
+      "sentence": "I WANT EAT FISH."
+    },
+    {
+      "word": "BIRD",
+      "slug": "bird",
+      "video_path": "asl-citizen/BIRD/01__7681454721815406-BIRD.mp4",
+      "embedding_index": 6,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "BIRD",
+      "slug": "bird",
+      "video_path": "asl-citizen/BIRD/01__9124605309904161-BIRD.mp4",
+      "embedding_index": 7,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "BIRD",
+      "slug": "bird",
+      "video_path": "asl-citizen/BIRD/02__058506224158483056-BIRD.mp4",
+      "embedding_index": 8,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "BIRD",
+      "slug": "bird",
+      "video_path": "asl-citizen/BIRD/02__07390110032238817-BIRD.mp4",
+      "embedding_index": 9,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "BIRD",
+      "slug": "bird",
+      "video_path": "asl-citizen/BIRD/03__07390110032238817-BIRD.mp4",
+      "embedding_index": 10,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "BIRD",
+      "slug": "bird",
+      "video_path": "asl-citizen/BIRD/03__9769693490028684-BIRD.mp4",
+      "embedding_index": 11,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "BIRD",
+      "slug": "bird",
+      "video_path": "asl-citizen/BIRD/04__01207267097409459-BIRD.mp4",
+      "embedding_index": 12,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "BIRD",
+      "slug": "bird",
+      "video_path": "asl-citizen/BIRD/05__047954989065146725-BIRD.mp4",
+      "embedding_index": 13,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "BIRD",
+      "slug": "bird",
+      "video_path": "asl-citizen/BIRD/05__47495313948748796-BIRD.mp4",
+      "embedding_index": 14,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "BLACK",
+      "slug": "black",
+      "video_path": "asl-citizen/BLACK/01__8816224302083786-BLACK.mp4",
+      "embedding_index": 15,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLACK",
+      "slug": "black",
+      "video_path": "asl-citizen/BLACK/02__2816071785934098-BLACK.mp4",
+      "embedding_index": 16,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLACK",
+      "slug": "black",
+      "video_path": "asl-citizen/BLACK/02__6404625490323916-BLACK.mp4",
+      "embedding_index": 17,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLACK",
+      "slug": "black",
+      "video_path": "asl-citizen/BLACK/03__03843442884875414-BLACK.mp4",
+      "embedding_index": 18,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLACK",
+      "slug": "black",
+      "video_path": "asl-citizen/BLACK/04__21793575059728565-BLACK.mp4",
+      "embedding_index": 19,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLACK",
+      "slug": "black",
+      "video_path": "asl-citizen/BLACK/04__6852909234334481-BLACK.mp4",
+      "embedding_index": 20,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLACK",
+      "slug": "black",
+      "video_path": "asl-citizen/BLACK/05__31045839782231943-BLACK.mp4",
+      "embedding_index": 21,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLACK",
+      "slug": "black",
+      "video_path": "asl-citizen/BLACK/05__6504039194102542-BLACK.mp4",
+      "embedding_index": 22,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLUE",
+      "slug": "blue",
+      "video_path": "asl-citizen/BLUE/01__9697067996657991-BLUE.mp4",
+      "embedding_index": 23,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLUE",
+      "slug": "blue",
+      "video_path": "asl-citizen/BLUE/02__23410020805724652-BLUE.mp4",
+      "embedding_index": 24,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLUE",
+      "slug": "blue",
+      "video_path": "asl-citizen/BLUE/02__7558608455138811-BLUE.mp4",
+      "embedding_index": 25,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLUE",
+      "slug": "blue",
+      "video_path": "asl-citizen/BLUE/03__43141331649516945-BLUE.mp4",
+      "embedding_index": 26,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLUE",
+      "slug": "blue",
+      "video_path": "asl-citizen/BLUE/03__5448422843919118-seedBLUE.mp4",
+      "embedding_index": 27,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLUE",
+      "slug": "blue",
+      "video_path": "asl-citizen/BLUE/04__01553665764183787-BLUE.mp4",
+      "embedding_index": 28,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLUE",
+      "slug": "blue",
+      "video_path": "asl-citizen/BLUE/04__2072166480164903-BLUE.mp4",
+      "embedding_index": 29,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLUE",
+      "slug": "blue",
+      "video_path": "asl-citizen/BLUE/05__18167694443493398-BLUE.mp4",
+      "embedding_index": 30,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BLUE",
+      "slug": "blue",
+      "video_path": "asl-citizen/BLUE/05__8347598608932822-BLUE.mp4",
+      "embedding_index": 31,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "BOOK",
+      "slug": "book",
+      "video_path": "asl-citizen/BOOK/01__774298823461816-BOOK.mp4",
+      "embedding_index": 32,
+      "lecture": "6",
+      "topic": "School",
+      "sentence": "I STUDY ASL."
+    },
+    {
+      "word": "BOOK",
+      "slug": "book",
+      "video_path": "asl-citizen/BOOK/02__8364442922972546-BOOK.mp4",
+      "embedding_index": 33,
+      "lecture": "6",
+      "topic": "School",
+      "sentence": "I STUDY ASL."
+    },
+    {
+      "word": "BOOK",
+      "slug": "book",
+      "video_path": "asl-citizen/BOOK/03__5770462994666947-BOOK.mp4",
+      "embedding_index": 34,
+      "lecture": "6",
+      "topic": "School",
+      "sentence": "I STUDY ASL."
+    },
+    {
+      "word": "BOOK",
+      "slug": "book",
+      "video_path": "asl-citizen/BOOK/03__8799845932622608-BOOK.mp4",
+      "embedding_index": 35,
+      "lecture": "6",
+      "topic": "School",
+      "sentence": "I STUDY ASL."
+    },
+    {
+      "word": "BOOK",
+      "slug": "book",
+      "video_path": "asl-citizen/BOOK/04__9654484282818483-BOOK.mp4",
+      "embedding_index": 36,
+      "lecture": "6",
+      "topic": "School",
+      "sentence": "I STUDY ASL."
+    },
+    {
+      "word": "BOOK",
+      "slug": "book",
+      "video_path": "asl-citizen/BOOK/05__29872450360285696-BOOK.mp4",
+      "embedding_index": 37,
+      "lecture": "6",
+      "topic": "School",
+      "sentence": "I STUDY ASL."
+    },
+    {
+      "word": "BOOK",
+      "slug": "book",
+      "video_path": "asl-citizen/BOOK/05__9959161578599864-BOOK.mp4",
+      "embedding_index": 38,
+      "lecture": "6",
+      "topic": "School",
+      "sentence": "I STUDY ASL."
+    },
+    {
+      "word": "BROTHER",
+      "slug": "brother",
+      "video_path": "asl-citizen/BROTHER/01__33343477219844675-BROTHER.mp4",
+      "embedding_index": 39,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "BROTHER",
+      "slug": "brother",
+      "video_path": "asl-citizen/BROTHER/02__4315928891640657-BROTHER.mp4",
+      "embedding_index": 40,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "BROTHER",
+      "slug": "brother",
+      "video_path": "asl-citizen/BROTHER/03__049689800905120096-seedBROTHER.mp4",
+      "embedding_index": 41,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "BROTHER",
+      "slug": "brother",
+      "video_path": "asl-citizen/BROTHER/03__6500641946617272-BROTHER.mp4",
+      "embedding_index": 42,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "BROTHER",
+      "slug": "brother",
+      "video_path": "asl-citizen/BROTHER/04__13498585088047066-BROTHER.mp4",
+      "embedding_index": 43,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "BROTHER",
+      "slug": "brother",
+      "video_path": "asl-citizen/BROTHER/04__27515506457252026-BROTHER.mp4",
+      "embedding_index": 44,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "BROTHER",
+      "slug": "brother",
+      "video_path": "asl-citizen/BROTHER/05__43876125183584724-BROTHER.mp4",
+      "embedding_index": 45,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "BROTHER",
+      "slug": "brother",
+      "video_path": "asl-citizen/BROTHER/05__9554413278323899-BROTHER.mp4",
+      "embedding_index": 46,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "CAR",
+      "slug": "car",
+      "video_path": "asl-citizen/CAR/01__1677950089290965-CAR.mp4",
+      "embedding_index": 47,
+      "lecture": "15",
+      "topic": "Transportation",
+      "sentence": "I DRIVE WORK."
+    },
+    {
+      "word": "CAR",
+      "slug": "car",
+      "video_path": "asl-citizen/CAR/02__1677950089290965-CAR.mp4",
+      "embedding_index": 48,
+      "lecture": "15",
+      "topic": "Transportation",
+      "sentence": "I DRIVE WORK."
+    },
+    {
+      "word": "CAR",
+      "slug": "car",
+      "video_path": "asl-citizen/CAR/03__11932520912401978-CAR.mp4",
+      "embedding_index": 49,
+      "lecture": "15",
+      "topic": "Transportation",
+      "sentence": "I DRIVE WORK."
+    },
+    {
+      "word": "CAR",
+      "slug": "car",
+      "video_path": "asl-citizen/CAR/03__1510850145706859-CAR.mp4",
+      "embedding_index": 50,
+      "lecture": "15",
+      "topic": "Transportation",
+      "sentence": "I DRIVE WORK."
+    },
+    {
+      "word": "CAR",
+      "slug": "car",
+      "video_path": "asl-citizen/CAR/04__5571540385430789-seedCAR.mp4",
+      "embedding_index": 51,
+      "lecture": "15",
+      "topic": "Transportation",
+      "sentence": "I DRIVE WORK."
+    },
+    {
+      "word": "CAR",
+      "slug": "car",
+      "video_path": "asl-citizen/CAR/04__9112247155918443-CAR.mp4",
+      "embedding_index": 52,
+      "lecture": "15",
+      "topic": "Transportation",
+      "sentence": "I DRIVE WORK."
+    },
+    {
+      "word": "CAR",
+      "slug": "car",
+      "video_path": "asl-citizen/CAR/05__58848628569082-CAR.mp4",
+      "embedding_index": 53,
+      "lecture": "15",
+      "topic": "Transportation",
+      "sentence": "I DRIVE WORK."
+    },
+    {
+      "word": "CAR",
+      "slug": "car",
+      "video_path": "asl-citizen/CAR/05__6754123313977809-CAR.mp4",
+      "embedding_index": 54,
+      "lecture": "15",
+      "topic": "Transportation",
+      "sentence": "I DRIVE WORK."
+    },
+    {
+      "word": "CAT",
+      "slug": "cat",
+      "video_path": "asl-citizen/CAT/01__20685216012808816-CAT.mp4",
+      "embedding_index": 55,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "CAT",
+      "slug": "cat",
+      "video_path": "asl-citizen/CAT/02__17456240669071676-CAT 3.mp4",
+      "embedding_index": 56,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "CAT",
+      "slug": "cat",
+      "video_path": "asl-citizen/CAT/03__34845261539756955-CAT 2.mp4",
+      "embedding_index": 57,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "CAT",
+      "slug": "cat",
+      "video_path": "asl-citizen/CAT/05__8103443254454792-CAT 2.mp4",
+      "embedding_index": 58,
+      "lecture": "26",
+      "topic": "Animals",
+      "sentence": "I HAVE CAT."
+    },
+    {
+      "word": "CHILD",
+      "slug": "child",
+      "video_path": "asl-citizen/CHILD/01__7310198714610268-CHILD.mp4",
+      "embedding_index": 59,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "CHILD",
+      "slug": "child",
+      "video_path": "asl-citizen/CHILD/02__3386580429363426-CHILD.mp4",
+      "embedding_index": 60,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "CHILD",
+      "slug": "child",
+      "video_path": "asl-citizen/CHILD/02__7964401394096523-CHILD.mp4",
+      "embedding_index": 61,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "CHILD",
+      "slug": "child",
+      "video_path": "asl-citizen/CHILD/03__2976678151413328-CHILD.mp4",
+      "embedding_index": 62,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "CHILD",
+      "slug": "child",
+      "video_path": "asl-citizen/CHILD/04__8037284578101263-CHILD.mp4",
+      "embedding_index": 63,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "CHILD",
+      "slug": "child",
+      "video_path": "asl-citizen/CHILD/05__12316183317611928-CHILD.mp4",
+      "embedding_index": 64,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "CHILD",
+      "slug": "child",
+      "video_path": "asl-citizen/CHILD/05__48397958306755084-CHILD.mp4",
+      "embedding_index": 65,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "FATHER",
+      "slug": "father",
+      "video_path": "asl-citizen/FATHER/01__8528744514122979-FATHER.mp4",
+      "embedding_index": 66,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "FATHER",
+      "slug": "father",
+      "video_path": "asl-citizen/FATHER/02__0031311305138936874-FATHER.mp4",
+      "embedding_index": 67,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "FATHER",
+      "slug": "father",
+      "video_path": "asl-citizen/FATHER/02__6080643843120164-FATHER.mp4",
+      "embedding_index": 68,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "FATHER",
+      "slug": "father",
+      "video_path": "asl-citizen/FATHER/03__01723835388117645-seedFATHER.mp4",
+      "embedding_index": 69,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "FATHER",
+      "slug": "father",
+      "video_path": "asl-citizen/FATHER/04__18379040774402422-FATHER.mp4",
+      "embedding_index": 70,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "FATHER",
+      "slug": "father",
+      "video_path": "asl-citizen/FATHER/05__1529301460300041-FATHER.mp4",
+      "embedding_index": 71,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "HAPPY",
+      "slug": "happy",
+      "video_path": "asl-citizen/HAPPY/02__214143352672429-HAPPY.mp4",
+      "embedding_index": 72,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "HAPPY",
+      "slug": "happy",
+      "video_path": "asl-citizen/HAPPY/02__9745449040953389-HAPPY.mp4",
+      "embedding_index": 73,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "HAPPY",
+      "slug": "happy",
+      "video_path": "asl-citizen/HAPPY/03__5407375828723797-HAPPY.mp4",
+      "embedding_index": 74,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "HAPPY",
+      "slug": "happy",
+      "video_path": "asl-citizen/HAPPY/03__9745449040953389-HAPPY.mp4",
+      "embedding_index": 75,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "HAPPY",
+      "slug": "happy",
+      "video_path": "asl-citizen/HAPPY/04__5442330055496771-HAPPY.mp4",
+      "embedding_index": 76,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "HAPPY",
+      "slug": "happy",
+      "video_path": "asl-citizen/HAPPY/04__9350853025929522-HAPPY.mp4",
+      "embedding_index": 77,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "HELLO",
+      "slug": "hello",
+      "video_path": "asl-citizen/HELLO/01__7472491282176557-HELLO.mp4",
+      "embedding_index": 78,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "HELLO",
+      "slug": "hello",
+      "video_path": "asl-citizen/HELLO/03__9441415075906014-HELLO.mp4",
+      "embedding_index": 79,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "HELLO",
+      "slug": "hello",
+      "video_path": "asl-citizen/HELLO/04__9042145214602195-HELLO.mp4",
+      "embedding_index": 80,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "HELLO",
+      "slug": "hello",
+      "video_path": "asl-citizen/HELLO/05__25802117645943423-HELLO.mp4",
+      "embedding_index": 81,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "HOME",
+      "slug": "home",
+      "video_path": "asl-citizen/HOME/01__15614531692180766-HOME.mp4",
+      "embedding_index": 82,
+      "lecture": "13",
+      "topic": "Home",
+      "sentence": "MY HOME HAVE TWO ROOM."
+    },
+    {
+      "word": "HOME",
+      "slug": "home",
+      "video_path": "asl-citizen/HOME/02__4506537239301789-HOME.mp4",
+      "embedding_index": 83,
+      "lecture": "13",
+      "topic": "Home",
+      "sentence": "MY HOME HAVE TWO ROOM."
+    },
+    {
+      "word": "HOME",
+      "slug": "home",
+      "video_path": "asl-citizen/HOME/03__4506537239301789-HOME.mp4",
+      "embedding_index": 84,
+      "lecture": "13",
+      "topic": "Home",
+      "sentence": "MY HOME HAVE TWO ROOM."
+    },
+    {
+      "word": "HOME",
+      "slug": "home",
+      "video_path": "asl-citizen/HOME/04__4911600925607411-HOME.mp4",
+      "embedding_index": 85,
+      "lecture": "13",
+      "topic": "Home",
+      "sentence": "MY HOME HAVE TWO ROOM."
+    },
+    {
+      "word": "HOME",
+      "slug": "home",
+      "video_path": "asl-citizen/HOME/05__4911600925607411-HOME.mp4",
+      "embedding_index": 86,
+      "lecture": "13",
+      "topic": "Home",
+      "sentence": "MY HOME HAVE TWO ROOM."
+    },
+    {
+      "word": "HOME",
+      "slug": "home",
+      "video_path": "asl-citizen/HOME/05__5938307461368451-HOME.mp4",
+      "embedding_index": 87,
+      "lecture": "13",
+      "topic": "Home",
+      "sentence": "MY HOME HAVE TWO ROOM."
+    },
+    {
+      "word": "MILK",
+      "slug": "milk",
+      "video_path": "asl-citizen/MILK/01__05508431578415407-MILK.mp4",
+      "embedding_index": 88,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "MILK",
+      "slug": "milk",
+      "video_path": "asl-citizen/MILK/02__7718107633841029-MILK 2.mp4",
+      "embedding_index": 89,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "MILK",
+      "slug": "milk",
+      "video_path": "asl-citizen/MILK/04__4180054400928148-MILK.mp4",
+      "embedding_index": 90,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "MILK",
+      "slug": "milk",
+      "video_path": "asl-citizen/MILK/05__7285669729445197-MILK 2.mp4",
+      "embedding_index": 91,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "MORNING",
+      "slug": "morning",
+      "video_path": "asl-citizen/MORNING/01__2701359392458662-MORNING.mp4",
+      "embedding_index": 92,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "MORNING",
+      "slug": "morning",
+      "video_path": "asl-citizen/MORNING/01__2728176580341968-MORNING.mp4",
+      "embedding_index": 93,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "MORNING",
+      "slug": "morning",
+      "video_path": "asl-citizen/MORNING/02__15013912476924496-MORNING.mp4",
+      "embedding_index": 94,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "MORNING",
+      "slug": "morning",
+      "video_path": "asl-citizen/MORNING/02__34639776933279465-MORNING.mp4",
+      "embedding_index": 95,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "MORNING",
+      "slug": "morning",
+      "video_path": "asl-citizen/MORNING/03__15013912476924496-MORNING.mp4",
+      "embedding_index": 96,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "MORNING",
+      "slug": "morning",
+      "video_path": "asl-citizen/MORNING/03__5674449625615106-MORNING.mp4",
+      "embedding_index": 97,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "MORNING",
+      "slug": "morning",
+      "video_path": "asl-citizen/MORNING/04__38402181354833864-MORNING.mp4",
+      "embedding_index": 98,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "MORNING",
+      "slug": "morning",
+      "video_path": "asl-citizen/MORNING/05__26793005953024407-MORNING.mp4",
+      "embedding_index": 99,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "MORNING",
+      "slug": "morning",
+      "video_path": "asl-citizen/MORNING/05__7444758043561372-MORNING.mp4",
+      "embedding_index": 100,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "MOTHER",
+      "slug": "mother",
+      "video_path": "asl-citizen/MOTHER/01__08810573270861677-MOTHER.mp4",
+      "embedding_index": 101,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "MOTHER",
+      "slug": "mother",
+      "video_path": "asl-citizen/MOTHER/01__6976573288663246-MOTHER.mp4",
+      "embedding_index": 102,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "MOTHER",
+      "slug": "mother",
+      "video_path": "asl-citizen/MOTHER/02__10278942340284503-MOTHER.mp4",
+      "embedding_index": 103,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "MOTHER",
+      "slug": "mother",
+      "video_path": "asl-citizen/MOTHER/02__733944694272519-MOTHER.mp4",
+      "embedding_index": 104,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "MOTHER",
+      "slug": "mother",
+      "video_path": "asl-citizen/MOTHER/03__1825200902929398-MOTHER.mp4",
+      "embedding_index": 105,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "MOTHER",
+      "slug": "mother",
+      "video_path": "asl-citizen/MOTHER/03__839986126568294-MOTHER.mp4",
+      "embedding_index": 106,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "MOTHER",
+      "slug": "mother",
+      "video_path": "asl-citizen/MOTHER/04__6448721666124038-MOTHER.mp4",
+      "embedding_index": 107,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "MOTHER",
+      "slug": "mother",
+      "video_path": "asl-citizen/MOTHER/04__7542254268771809-MOTHER.mp4",
+      "embedding_index": 108,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "MOTHER",
+      "slug": "mother",
+      "video_path": "asl-citizen/MOTHER/05__08810573270861677-MOTHER.mp4",
+      "embedding_index": 109,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "MOTHER",
+      "slug": "mother",
+      "video_path": "asl-citizen/MOTHER/05__7266802248917938-MOTHER.mp4",
+      "embedding_index": 110,
+      "lecture": "4",
+      "topic": "Family 1",
+      "sentence": "MY FAMILY HAVE FOUR PEOPLE."
+    },
+    {
+      "word": "NIGHT",
+      "slug": "night",
+      "video_path": "asl-citizen/NIGHT/01__5167679505274874-NIGHT 2.mp4",
+      "embedding_index": 111,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "NIGHT",
+      "slug": "night",
+      "video_path": "asl-citizen/NIGHT/04__45151012977533345-NIGHT 2.mp4",
+      "embedding_index": 112,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "NIGHT",
+      "slug": "night",
+      "video_path": "asl-citizen/NIGHT/05__816438084831848-NIGHT 2.mp4",
+      "embedding_index": 113,
+      "lecture": "8",
+      "topic": "Time 1",
+      "sentence": "TOMORROW I GO SCHOOL."
+    },
+    {
+      "word": "NO",
+      "slug": "no",
+      "video_path": "asl-citizen/NO/03__5278795760893484-NO.mp4",
+      "embedding_index": 114,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "NO",
+      "slug": "no",
+      "video_path": "asl-citizen/NO/04__5328649685588343-NO.mp4",
+      "embedding_index": 115,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "NO",
+      "slug": "no",
+      "video_path": "asl-citizen/NO/05__09714329486323847-NO.mp4",
+      "embedding_index": 116,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "NO",
+      "slug": "no",
+      "video_path": "asl-citizen/NO/05__2732741727030885-NO.mp4",
+      "embedding_index": 117,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "PLEASE",
+      "slug": "please",
+      "video_path": "asl-citizen/PLEASE/02__18053723532999788-PLEASE.mp4",
+      "embedding_index": 118,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "PLEASE",
+      "slug": "please",
+      "video_path": "asl-citizen/PLEASE/02__44272136216354463-PLEASE.mp4",
+      "embedding_index": 119,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "PLEASE",
+      "slug": "please",
+      "video_path": "asl-citizen/PLEASE/03__11854818371036102-PLEASE.mp4",
+      "embedding_index": 120,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "PLEASE",
+      "slug": "please",
+      "video_path": "asl-citizen/PLEASE/03__7315727436787696-PLEASE.mp4",
+      "embedding_index": 121,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "PLEASE",
+      "slug": "please",
+      "video_path": "asl-citizen/PLEASE/04__5042323343464843-PLEASE.mp4",
+      "embedding_index": 122,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "PLEASE",
+      "slug": "please",
+      "video_path": "asl-citizen/PLEASE/05__3584447878251358-PLEASE.mp4",
+      "embedding_index": 123,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "RAIN",
+      "slug": "rain",
+      "video_path": "asl-citizen/RAIN/01__21290686289176697-RAIN.mp4",
+      "embedding_index": 124,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "RAIN",
+      "slug": "rain",
+      "video_path": "asl-citizen/RAIN/01__23131538854653777-RAIN.mp4",
+      "embedding_index": 125,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "RAIN",
+      "slug": "rain",
+      "video_path": "asl-citizen/RAIN/02__00430515803151077-RAIN.mp4",
+      "embedding_index": 126,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "RAIN",
+      "slug": "rain",
+      "video_path": "asl-citizen/RAIN/02__49442625448468736-RAIN.mp4",
+      "embedding_index": 127,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "RAIN",
+      "slug": "rain",
+      "video_path": "asl-citizen/RAIN/03__05938324974298559-RAIN.mp4",
+      "embedding_index": 128,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "RAIN",
+      "slug": "rain",
+      "video_path": "asl-citizen/RAIN/04__2937061353781312-RAIN.mp4",
+      "embedding_index": 129,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "RAIN",
+      "slug": "rain",
+      "video_path": "asl-citizen/RAIN/04__5475499371354993-RAIN.mp4",
+      "embedding_index": 130,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "RAIN",
+      "slug": "rain",
+      "video_path": "asl-citizen/RAIN/05__21290686289176697-RAIN.mp4",
+      "embedding_index": 131,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "RAIN",
+      "slug": "rain",
+      "video_path": "asl-citizen/RAIN/05__8480082255495036-seedRAIN.mp4",
+      "embedding_index": 132,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "RED",
+      "slug": "red",
+      "video_path": "asl-citizen/RED/01__8102554441260599-RED.mp4",
+      "embedding_index": 133,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "RED",
+      "slug": "red",
+      "video_path": "asl-citizen/RED/03__13446838087840018-RED.mp4",
+      "embedding_index": 134,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "RED",
+      "slug": "red",
+      "video_path": "asl-citizen/RED/04__3341535317096218-RED.mp4",
+      "embedding_index": 135,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "RED",
+      "slug": "red",
+      "video_path": "asl-citizen/RED/04__5093165671360214-RED.mp4",
+      "embedding_index": 136,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "RED",
+      "slug": "red",
+      "video_path": "asl-citizen/RED/05__6332452979709653-RED.mp4",
+      "embedding_index": 137,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "SAD",
+      "slug": "sad",
+      "video_path": "asl-citizen/SAD/01__0320912589498219-SAD.mp4",
+      "embedding_index": 138,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SAD",
+      "slug": "sad",
+      "video_path": "asl-citizen/SAD/02__07426159684377254-SAD.mp4",
+      "embedding_index": 139,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SAD",
+      "slug": "sad",
+      "video_path": "asl-citizen/SAD/02__647128079267353-SAD.mp4",
+      "embedding_index": 140,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SAD",
+      "slug": "sad",
+      "video_path": "asl-citizen/SAD/03__11544910408718656-SAD.mp4",
+      "embedding_index": 141,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SAD",
+      "slug": "sad",
+      "video_path": "asl-citizen/SAD/03__8959116998657448-SAD.mp4",
+      "embedding_index": 142,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SAD",
+      "slug": "sad",
+      "video_path": "asl-citizen/SAD/04__8840211270769178-SAD.mp4",
+      "embedding_index": 143,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SAD",
+      "slug": "sad",
+      "video_path": "asl-citizen/SAD/04__9346193415975794-SAD.mp4",
+      "embedding_index": 144,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SHIRT",
+      "slug": "shirt",
+      "video_path": "asl-citizen/SHIRT/01__07810943203866083-SHIRT 2.mp4",
+      "embedding_index": 145,
+      "lecture": "21",
+      "topic": "Clothes",
+      "sentence": "MY SHOES BLACK."
+    },
+    {
+      "word": "SHIRT",
+      "slug": "shirt",
+      "video_path": "asl-citizen/SHIRT/02__3187187672841929-SHIRT 2.mp4",
+      "embedding_index": 146,
+      "lecture": "21",
+      "topic": "Clothes",
+      "sentence": "MY SHOES BLACK."
+    },
+    {
+      "word": "SHIRT",
+      "slug": "shirt",
+      "video_path": "asl-citizen/SHIRT/03__8759386715285113-SHIRT.mp4",
+      "embedding_index": 147,
+      "lecture": "21",
+      "topic": "Clothes",
+      "sentence": "MY SHOES BLACK."
+    },
+    {
+      "word": "SHIRT",
+      "slug": "shirt",
+      "video_path": "asl-citizen/SHIRT/04__13606306030861792-SHIRT.mp4",
+      "embedding_index": 148,
+      "lecture": "21",
+      "topic": "Clothes",
+      "sentence": "MY SHOES BLACK."
+    },
+    {
+      "word": "SHIRT",
+      "slug": "shirt",
+      "video_path": "asl-citizen/SHIRT/05__22544870447283571-SHIRT.mp4",
+      "embedding_index": 149,
+      "lecture": "21",
+      "topic": "Clothes",
+      "sentence": "MY SHOES BLACK."
+    },
+    {
+      "word": "SICK",
+      "slug": "sick",
+      "video_path": "asl-citizen/SICK/01__06509213312274453-SICK.mp4",
+      "embedding_index": 150,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SICK",
+      "slug": "sick",
+      "video_path": "asl-citizen/SICK/02__346347810799994-SICK.mp4",
+      "embedding_index": 151,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SICK",
+      "slug": "sick",
+      "video_path": "asl-citizen/SICK/03__47832051707828005-SICK.mp4",
+      "embedding_index": 152,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SICK",
+      "slug": "sick",
+      "video_path": "asl-citizen/SICK/04__23601871909315686-SICK.mp4",
+      "embedding_index": 153,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SICK",
+      "slug": "sick",
+      "video_path": "asl-citizen/SICK/05__08956501268165051-SICK.mp4",
+      "embedding_index": 154,
+      "lecture": "18",
+      "topic": "Emotions",
+      "sentence": "I TIRED TODAY."
+    },
+    {
+      "word": "SNOW",
+      "slug": "snow",
+      "video_path": "asl-citizen/SNOW/02__8846959281293827-SNOW.mp4",
+      "embedding_index": 155,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "SNOW",
+      "slug": "snow",
+      "video_path": "asl-citizen/SNOW/04__4360918616673015-SNOW 2.mp4",
+      "embedding_index": 156,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "SNOW",
+      "slug": "snow",
+      "video_path": "asl-citizen/SNOW/05__69160499620491-SNOW.mp4",
+      "embedding_index": 157,
+      "lecture": "17",
+      "topic": "Weather",
+      "sentence": "TODAY WEATHER COLD."
+    },
+    {
+      "word": "THANKYOU",
+      "slug": "thankyou",
+      "video_path": "asl-citizen/THANKYOU/03__936211950052861-THANK YOU.mp4",
+      "embedding_index": 158,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "THANKYOU",
+      "slug": "thankyou",
+      "video_path": "asl-citizen/THANKYOU/04__6788237257016723-THANK YOU.mp4",
+      "embedding_index": 159,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "THANKYOU",
+      "slug": "thankyou",
+      "video_path": "asl-citizen/THANKYOU/05__15769775934939156-THANK YOU.mp4",
+      "embedding_index": 160,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "WAIT",
+      "slug": "wait",
+      "video_path": "asl-citizen/WAIT/01__6530795087181671-WAIT.mp4",
+      "embedding_index": 161,
+      "lecture": "30",
+      "topic": "Review",
+      "sentence": "PLEASE SIGN SLOW AGAIN."
+    },
+    {
+      "word": "WAIT",
+      "slug": "wait",
+      "video_path": "asl-citizen/WAIT/02__6692766688263203-WAIT.mp4",
+      "embedding_index": 162,
+      "lecture": "30",
+      "topic": "Review",
+      "sentence": "PLEASE SIGN SLOW AGAIN."
+    },
+    {
+      "word": "WAIT",
+      "slug": "wait",
+      "video_path": "asl-citizen/WAIT/03__5185122660022305-WAIT.mp4",
+      "embedding_index": 163,
+      "lecture": "30",
+      "topic": "Review",
+      "sentence": "PLEASE SIGN SLOW AGAIN."
+    },
+    {
+      "word": "WAIT",
+      "slug": "wait",
+      "video_path": "asl-citizen/WAIT/05__6368510219023522-WAIT.mp4",
+      "embedding_index": 164,
+      "lecture": "30",
+      "topic": "Review",
+      "sentence": "PLEASE SIGN SLOW AGAIN."
+    },
+    {
+      "word": "WAIT",
+      "slug": "wait",
+      "video_path": "asl-citizen/WAIT/05__7613568684951131-WAIT.mp4",
+      "embedding_index": 165,
+      "lecture": "30",
+      "topic": "Review",
+      "sentence": "PLEASE SIGN SLOW AGAIN."
+    },
+    {
+      "word": "WATER",
+      "slug": "water",
+      "video_path": "asl-citizen/WATER/01__03174577769237463-WATER.mp4",
+      "embedding_index": 166,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "WATER",
+      "slug": "water",
+      "video_path": "asl-citizen/WATER/02__40723216723050504-WATER.mp4",
+      "embedding_index": 167,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "WATER",
+      "slug": "water",
+      "video_path": "asl-citizen/WATER/02__7276443456531434-WATER.mp4",
+      "embedding_index": 168,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "WATER",
+      "slug": "water",
+      "video_path": "asl-citizen/WATER/03__03892908647294191-WATER.mp4",
+      "embedding_index": 169,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "WATER",
+      "slug": "water",
+      "video_path": "asl-citizen/WATER/03__6604106363350253-WATER.mp4",
+      "embedding_index": 170,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "WATER",
+      "slug": "water",
+      "video_path": "asl-citizen/WATER/04__03892908647294191-WATER.mp4",
+      "embedding_index": 171,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "WATER",
+      "slug": "water",
+      "video_path": "asl-citizen/WATER/04__6842760193004458-WATER.mp4",
+      "embedding_index": 172,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "WATER",
+      "slug": "water",
+      "video_path": "asl-citizen/WATER/05__6216809763132565-WATER.mp4",
+      "embedding_index": 173,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "WATER",
+      "slug": "water",
+      "video_path": "asl-citizen/WATER/05__6252432727581858-WATER.mp4",
+      "embedding_index": 174,
+      "lecture": "11",
+      "topic": "Food 1",
+      "sentence": "MORNING I DRINK COFFEE."
+    },
+    {
+      "word": "WHITE",
+      "slug": "white",
+      "video_path": "asl-citizen/WHITE/01__16027634949398117-WHITE.mp4",
+      "embedding_index": 175,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "WHITE",
+      "slug": "white",
+      "video_path": "asl-citizen/WHITE/01__21947947473280904-WHITE.mp4",
+      "embedding_index": 176,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "WHITE",
+      "slug": "white",
+      "video_path": "asl-citizen/WHITE/02__39073540410206586-WHITE.mp4",
+      "embedding_index": 177,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "WHITE",
+      "slug": "white",
+      "video_path": "asl-citizen/WHITE/03__8787854231298282-WHITE.mp4",
+      "embedding_index": 178,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "WHITE",
+      "slug": "white",
+      "video_path": "asl-citizen/WHITE/03__9742348554293634-WHITE.mp4",
+      "embedding_index": 179,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "WHITE",
+      "slug": "white",
+      "video_path": "asl-citizen/WHITE/04__14684615781592747-WHITE.mp4",
+      "embedding_index": 180,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "WHITE",
+      "slug": "white",
+      "video_path": "asl-citizen/WHITE/04__23198740707187815-WHITE.mp4",
+      "embedding_index": 181,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "WHITE",
+      "slug": "white",
+      "video_path": "asl-citizen/WHITE/05__7355454272708466-WHITE.mp4",
+      "embedding_index": 182,
+      "lecture": "10",
+      "topic": "Colors",
+      "sentence": "I LIKE BLUE."
+    },
+    {
+      "word": "YES",
+      "slug": "yes",
+      "video_path": "asl-citizen/YES/02__709429051156695-YES.mp4",
+      "embedding_index": 183,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "YES",
+      "slug": "yes",
+      "video_path": "asl-citizen/YES/02__9605571410103191-YES.mp4",
+      "embedding_index": 184,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "YES",
+      "slug": "yes",
+      "video_path": "asl-citizen/YES/04__709429051156695-YES.mp4",
+      "embedding_index": 185,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    },
+    {
+      "word": "YES",
+      "slug": "yes",
+      "video_path": "asl-citizen/YES/05__8699610978899361-YES.mp4",
+      "embedding_index": 186,
+      "lecture": "1",
+      "topic": "Greetings",
+      "sentence": "HELLO, MY NAME fs-CHRIS."
+    }
+  ]
+}
