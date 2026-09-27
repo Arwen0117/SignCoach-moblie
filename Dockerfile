@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir -r requirements-demo.txt && pip check \
 COPY asl_realtime ./asl_realtime
 COPY signcoach_benchmark/__init__.py signcoach_benchmark/config.py signcoach_benchmark/vocabulary.json ./signcoach_benchmark/
 # Authorized references are supplied separately at /app/deploy/reference at runtime.
-COPY deploy/reference/README.md ./deploy/reference/README.md
+COPY deploy/reference/index.npz deploy/reference/manifest.json ./deploy/reference/
 COPY --from=frontend /build/web-app/build ./web-app/build
 RUN useradd --create-home --uid 10001 demo && mkdir /data && chown demo:demo /data
 USER demo
