@@ -41,3 +41,5 @@
 **/__pycache__
 **/*.pyc
 **/*.log
+!deploy/reference/index.npz
+!deploy/reference/manifest.json
