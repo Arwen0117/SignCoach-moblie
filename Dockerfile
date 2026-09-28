@@ -20,10 +20,9 @@ RUN pip install --no-cache-dir -r requirements-demo.txt && pip check \
     && python -c "import cv2, mediapipe; m=mediapipe.solutions.holistic.Holistic(); m.close()"
 COPY asl_realtime ./asl_realtime
 COPY signcoach_benchmark/__init__.py signcoach_benchmark/config.py signcoach_benchmark/vocabulary.json ./signcoach_benchmark/
-# Authorized references are supplied separately at /app/deploy/reference at runtime.
-COPY deploy/reference/index.npz deploy/reference/manifest.json ./deploy/reference/
+# Reference files are provided at runtime under /data/reference.
 COPY --from=frontend /build/web-app/build ./web-app/build
 RUN useradd --create-home --uid 10001 demo && mkdir /data && chown demo:demo /data
 USER demo
 EXPOSE 8000
-CMD ["python", "-m", "asl_realtime.api_server", "--host", "0.0.0.0"]
+CMD ["python", "-m", "asl_realtime.api_server", "--host", "0.0.0.0", "--reference-index", "/data/reference/index.npz", "--reference-manifest", "/data/reference/manifest.json"]
