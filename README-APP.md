@@ -25,4 +25,25 @@ App ID 是 `signcoach.eduspeck.com`。团队后续应保持这个 ID 一致。
 
 Windows 和 GitHub Codespaces 可以准备网页代码及 iOS 工程，但不能直接构建并安装 iOS App。后续需要在 Mac 上使用 Xcode，或使用云端 iOS 构建服务。
 
-目前尚未完成安装版的功能迁移：前端仍使用相对地址 `/api/...` 请求 Python 服务。安装版需要配置 iPhone 可访问的 HTTPS 服务地址，并验证相机权限、连续取帧、评分和历史记录。生成 iOS 工程不代表这些功能已经在安装版中通过测试。
+cat >> README-APP.md <<'EOF'
+
+## 手机 App 目标与当前进度
+
+目标是发布可安装的 iOS 和 Android 应用，让用户直接在 App 内完成手语练习，而不是要求用户打开浏览器链接。目前采用 Capacitor 打包前端，Python 服务负责联网评分。
+
+截至 2026-09-28，已完成：
+
+- 在 `web-app` 接入 Capacitor，并生成 `web-app/ios` 工程。
+- 设置 `webDir` 为 `build`；`npm run build` 已成功。
+- 前端 API 地址已集中配置：未设置 `VITE_API_BASE_URL` 时，现有网页继续请求 `/api/...`。
+- 已在 iOS 工程中添加相机用途说明。
+- iPhone 浏览器已能访问 Python 服务的 `/api/health`；这验证的是网页访问，尚未验证安装版 App。
+
+接下来需要：
+
+1. 为 Python 评分服务提供安装版可访问的 HTTPS 地址，并处理访问控制与跨域请求。Codespaces 的 Private 端口地址不能直接用作安装版 API。
+2. 配置 `VITE_API_BASE_URL`，重新运行 `npm run build` 和 `npx cap sync ios`。
+3. 构建并在 iPhone 上测试相机、连续取帧、评分、示范视频和历史记录。iOS 构建需要 Mac/Xcode 或云端构建服务。
+4. 添加 Android 工程，并在 Android 设备上完成同样的功能测试。
+5. 完成签名、商店资料和审核后，才可在 App Store 与 Google Play 提供下载。
+EOF

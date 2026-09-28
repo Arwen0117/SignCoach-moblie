@@ -39,6 +39,8 @@
             <string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
             <key>UISceneStoryboardFile</key>
             <string>Main</string>
+			<key>NSCameraUsageDescription</key>
+			<string>SignCoach uses the camera to capture your sign language practice and provide feedback.</string>
         </dict>
       </array>
     </dict>
