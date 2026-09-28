@@ -1,3 +1,5 @@
+import { apiUrl } from "../apiUrl.js";
+
 export const canonicalWord = word => ({ MOTHER: 'MOM', FATHER: 'DAD', 'THANK YOU': 'THANKYOU', 'THANK-YOU': 'THANKYOU' }[word.toUpperCase()] ?? word.toUpperCase());
 export const decisionText = { pass: 'Match passed', retry: 'Try again', rerecord: 'Please record again' };
 export function diagnosticText(result) {
@@ -12,7 +14,7 @@ export function diagnosticText(result) {
 }
 export function createApi(fetcher = globalThis.fetch) {
   async function request(path, options = {}) {
-    const response = await fetcher(path, options);
+    const response = await fetcher(apiUrl(path), options);
     if (!response.ok) throw new Error(`Request failed (${response.status}). Please try again.`);
     return response.status === 204 ? null : response.json();
   }

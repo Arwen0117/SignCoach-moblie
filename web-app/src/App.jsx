@@ -1,3 +1,5 @@
+import { apiUrl } from "./apiUrl.js";
+
 import PracticePage, { AttemptsList } from "./practice/PracticePage.jsx";
 import React, { useEffect, useState } from "react";
 import {
@@ -481,7 +483,7 @@ function SignASLVideo({ sign, compact = false }) {
     setError(false);
     setVideoUrl(null);
 
-    fetch(`/api/signasl/video/${sign.slug}`)
+    fetch(apiUrl(`/api/signasl/video/${sign.slug}`))
       .then((response) => {
         if (!response.ok) {
           throw new Error(`SignASL API ${response.status}`);
